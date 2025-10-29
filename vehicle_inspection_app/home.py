@@ -8,7 +8,7 @@ st.markdown("### Select the modules you want to run:")
 
 # Active and Upcoming Modules
 active_modules = ["Scratch", "Dent", "Corrosion", "Windshield"]
-upcoming_modules = ["Tire", "Interior", "Underbody"]
+upcoming_modules = ["Tire(coming soon)", "Interior(coming soon)", "Underbody(coming soon)"]
 
 # Multi-select for module selection
 selected_modules = st.multiselect(
@@ -24,3 +24,4 @@ if st.button("Next ➡️"):
     else:
         st.session_state.selected_modules = selected_modules
         st.switch_page("pages/upload_inspection.py")
+

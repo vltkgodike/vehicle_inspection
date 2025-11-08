@@ -19,7 +19,7 @@ st.title("📷 Upload Inspection Image")
 # ✅ Define Model URLs (Hugging Face)
 # ---------------------------#
 MODEL_URLS = {
-    "Scratch": "https://huggingface.co/mahigodike/AVIS/resolve/main/best_scratch_m.pt",
+    "Scratch": "https://huggingface.co/mahigodike/AVIS/resolve/main/scratch_125epoch.pt",
     "Dent": "https://huggingface.co/mahigodike/AVIS/resolve/main/best_model_dentw.pt",
     "Corrosion": "https://huggingface.co/mahigodike/AVIS/resolve/main/corrosion.pt",
     "Windshield": "https://huggingface.co/mahigodike/AVIS/resolve/main/windshield.pt"
@@ -144,5 +144,6 @@ if uploaded_file:
 
         time.sleep(2)
         st.switch_page("pages/report.py")
+
 
 

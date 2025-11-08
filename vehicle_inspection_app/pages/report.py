@@ -1,4 +1,4 @@
-
+#opencv-python-headless==4.10.0.84
 
 import streamlit as st
 import os
@@ -73,5 +73,6 @@ if st.button("⬅️ Back to Inspection Module"):
     st.info("Navigating back to the inspection module...")
     time.sleep(1)
     st.switch_page("pages/upload_inspection.py")
+
 
 

@@ -1,4 +1,5 @@
-
+import cv2
+from ultralytics import YOLO
 import streamlit as st
 
 st.set_page_config(page_title="Vehicle Inspection - Home", layout="centered")
